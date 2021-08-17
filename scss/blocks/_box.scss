@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+        width: 200px;
+        height: 200px;
+        background-color: dodgerblue;
+        border-radius: 5px;
+    }
+}
